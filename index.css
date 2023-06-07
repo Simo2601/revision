@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+ 
+    max-width: 720px;
+    margin: 30px auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.next{
+    display: flex;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 5px 5px;
+    width: 100px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    border: 2px rgb(124, 124, 124) solid;
+    
+}
+.content{
+    padding: 10px 30px;
+}
+.content .signin{
+   text-align: center;
+   margin-top: 10px;
+}
+.content .signin a{
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+ }
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header h1{
+    font-size: 48px;
+}
+
+.header p{
+    font-size: 26px;
+    color:rgb(124, 124, 124) ;
+    
+}
+.header button{
+    font-size: 20px;
+    padding: 5px 0;
+    width: 100%;
+    font-weight: 700;
+    background-color: white;
+    border: 1px rgb(124, 124, 124) solid;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.separator{
+    display: flex;
+    align-items: center;
+}
+.separator span{
+    display: block;
+   color: rgb(124, 124, 124);
+   margin: 0 20px;
+}
+.line{
+    background-color: rgb(124, 124, 124);
+    width: 100%;
+    height: 1px;
+}
+
+.form{
+    margin-top: 20px;
+    border-bottom: solid rgb(124, 124, 124) 1px;
+    padding-bottom: 30px;
+   
+}
+
+.feld{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-weight: 700;
+}
+.feld input{
+    width: 100%;
+    display: block;
+    padding: 0 10px;
+    height: 30px;
+    background-color:rgb(223, 219, 219) ;
+    border: none;
+    border-radius: 3px;
+    margin-top: 5px;
+
+    
+}
+
+.input-group{
+    margin: 10px 0;
+    display: flex;
+    width: 100%;
+}
+.input-group .feld:first-child{
+    margin-right: 15px;
+}
+
+.sign{
+    font-size: 16px;
+    padding: 5px 0;
+    width: 100%;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    margin: 15px 0;
+}
